@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvSuhu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suhu"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvHumid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humid"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvLux"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lux"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvTs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timestamp"
+        android:textSize="16sp" />
+</LinearLayout>
